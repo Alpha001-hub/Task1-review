@@ -37,25 +37,31 @@
         <div class="forms">
           <ul>
             <form action="">
-            <div class="name">
-            <p>Name: <input type="name" size="40">
-            </div>
-            <div class="work">
-            <p>Work: <input type="work" size="40">
-            </div>
-            <div class="sex">
-            <p>Sex: <input type="checkbox" name="sex" value="male">Male
-                  <input type="checkbox" name="sex" value="male">Female
-                </div>
-              <div class="reason">
-                  <p>Reasons: <label for="reason"></label>
-                   <textarea id="story" name="story"
-                    rows="5" cols="40">
-                  </textarea>
-            </div>
-              <div class="submit">
-             <input type="submit" value="Submit" relative="Submit">
-           </div>
+              <table style="width:100%">
+  <tr>
+    <th><p class="pclass">Name:</p></th>
+    <th><input class="inputclass" type="name" size="40"></th>
+  </tr>
+  <tr>
+    <td><p class="pclass">Work:</p></td>
+    <td> <input class="inputclass" type="work" size="40"></td>
+  </tr>
+  <tr>
+    <td><p class="pclass">Sex:</p></td>
+    <td> <input type="radio" name="sex" value="male">Male
+          <input type="radio" name="sex" value="female">Female</td>
+  </tr>
+  <tr>
+    <td><p class="pclass">Reasons:</p></td>
+    <td><textarea id="story" name="story"
+     rows="5" cols="65">
+   </textarea></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="submit" value="Submit" relative="Submit"></td>
+  </tr>
+</table>
           </form>
           </ul>
         </div>
@@ -66,5 +72,3 @@
   </div>
 </body>
 </html>
-
-          

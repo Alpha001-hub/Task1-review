@@ -7,7 +7,7 @@
   }
   .submit input {
   background-color: #0000FF;
-  margin-left: 200px;
+  margin-left: 50px;
   }
   .submit input:hover {
     opacity: 0.6;
@@ -33,4 +33,15 @@
 }
 .side_menu .point a{
   color: #4D4D4D;
+}
+input.inputclass {
+  width:480px;
+}
+.forms{
+  width:100%;
+  float:center;
+}
+p.pclass{
+  width:150px;
+  float:center;
 }
