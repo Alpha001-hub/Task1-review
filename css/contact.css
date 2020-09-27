@@ -49,11 +49,12 @@
 input.inputclass {
   width:480px;
 }
+
 .forms{
   width:100%;
   float:center;
 }
 p.pclass{
-  width:150px;
+  width:100px;
   float:center;
 }
